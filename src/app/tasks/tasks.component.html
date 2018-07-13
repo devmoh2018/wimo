@@ -1,0 +1,61 @@
+<br>
+<div class="row">
+
+    <div class="col-md-4">
+        <select  class="form-control" name="sort" >
+            <option value="">Sort</option>
+            <option value="date">Delivery Date</option>
+            <option value="name">Driver Name</option>
+            <option value="status">Delivery Status</option>
+        </select>
+
+    </div>
+    <div class="col-md-4">
+        <input  type="text" name="word"  class="form-control" placeholder="Search ">
+    </div>
+    <div class="col-md-4">
+
+        <!-- button to create new product -->
+        <a (click)="search()" class='btn btn-primary'>
+            <span class='glyphicon glyphicon-search'></span> Search
+        </a>
+    </div>
+
+</div>
+<br>
+<br>
+<div class="row">
+    <div class="col-md-12">
+ 
+        <!-- HTML table for our list of product records -->
+        <table class='table table-hover table-responsive table-bordered'>
+ 
+            <tr>
+                <th>driverName</th>
+                <th>courier</th>
+                <th>status</th>
+                <th>deliveryDate</th>
+                <th>Actions</th>
+            </tr>
+ 
+            <!-- Use *ngFor directive to loop throught our list of products. -->
+            <tr *ngFor="let task of tasks">
+                <td>{{task.driverName}}</td>
+                <td>{{task.courier}}</td>
+                <td>{{task.status}}</td>
+                <td>{{task.deliveryDate}}</td>
+                <td>
+                <a (click)="getMap()" class='btn btn-primary pull-right'>
+                    <span class='glyphicon glyphicon-map-marker'></span> Map
+                </a>
+                    <a (click)="markCompleted()" class='btn btn-primary pull-right'>
+                        <span class='glyphicon glyphicon-check'></span> Completed
+                    </a>
+
+                </td>
+
+
+            </tr>
+        </table>
+    </div>
+</div>

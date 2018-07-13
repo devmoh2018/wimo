@@ -1,0 +1,26 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "Wimo",
+  "main": "index.js",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng build && node ./bin/www",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Muhammed AboElgoud",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
