@@ -28,6 +28,10 @@ constructor(private  http:  HttpClient) {}
 
         return  this.http.get('http://localhost:9999/getone');
     }
+    updateTask(){
+
+        return  this.http.get('http://localhost:9999/update');
+    }
 
 
 
