@@ -25,8 +25,8 @@
       <file leaf-file-name="tasks.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angularfiles/src/app/tasks/tasks.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70223755">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.55593807">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -466,8 +466,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angularfiles/src/app/tasks/tasks.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70223755">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.55593807">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="34" />
           <folding />
         </state>
       </provider>
